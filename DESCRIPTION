@@ -1,0 +1,26 @@
+Package: hypeR-shiny
+Title: Shiny Web Interface for hypeR
+Version: 0.0
+Authors@R: c(person(given="Anthony", family="Federico", email="anfed@bu.edu", 
+             role=c("aut", "cre")),
+             person(given="Stefano", family="Monti", email="smonti@bu.edu", 
+             role=c("aut")))
+Description: Shiny Web Interface for hypeR.
+Depends: R (>= 3.6.0)
+License: GPL-3 + file LICENSE
+URL: https://github.com/montilab/hypeR-shiny
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+LazyData: false
+Imports:
+    hypeR
+Suggests:
+    tidyverse,
+    devtools,
+    testthat,
+    knitr
+Remotes:  
+    montilab/hypeR
+biocViews: GeneSetEnrichment, Annotation, Pathways
+VignetteBuilder: knitr
+BugReports: https://github.com/montilab/hypeR-shiny/issues
